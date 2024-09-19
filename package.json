@@ -1,0 +1,42 @@
+{
+  "name": "test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "biome check .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.4.0",
+    "@tanstack/react-query": "5.45.1",
+    "@ton/core": "^0.58.1",
+    "@ton/crypto": "^3.3.0",
+    "@tonconnect/ui-react": "^2.0.9",
+    "@tonsolutions/telemetree-react": "^1.1.10",
+    "antd": "^5.20.6",
+    "axios": "^1.7.7",
+    "react": "^18.3.1",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18.3.1",
+    "react-ga4": "^2.1.0",
+    "react-router-dom": "^6.26.2",
+    "viem": "latest",
+    "vite-plugin-node-polyfills": "^0.22.0",
+    "wagmi": "latest"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.0",
+    "@tanstack/eslint-plugin-query": "^5.56.1",
+    "@types/react": "^18.3.1",
+    "@types/react-copy-to-clipboard": "^5.0.7",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@wagmi/cli": "latest",
+    "buffer": "^6.0.3",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  }
+}
